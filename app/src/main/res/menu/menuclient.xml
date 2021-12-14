@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:enabled="true"
+        android:title="Search"
+        />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:enabled="true"
+        android:title="Add"
+        />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more"
+        android:enabled="true"
+        android:title="More"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:enabled="true"
+        android:title="Profile"
+        />
+</menu>

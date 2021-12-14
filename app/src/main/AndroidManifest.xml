@@ -19,6 +19,9 @@
             android:name=".login"
             android:exported="false" />
         <activity
+            android:name=".menuClient"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>

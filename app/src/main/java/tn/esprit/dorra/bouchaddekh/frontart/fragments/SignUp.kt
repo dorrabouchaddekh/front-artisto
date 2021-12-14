@@ -22,6 +22,7 @@ import tn.esprit.dorra.bouchaddekh.frontart.Api.UserApi
 import tn.esprit.dorra.bouchaddekh.frontart.MainActivity
 import tn.esprit.dorra.bouchaddekh.frontart.R
 import tn.esprit.dorra.bouchaddekh.frontart.Utils.RetrofitClient
+import tn.esprit.dorra.bouchaddekh.frontart.menuClient
 
 class SignUp : Fragment() {
     lateinit var txtUsername: TextInputEditText
@@ -77,7 +78,7 @@ class SignUp : Fragment() {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
 
                 Toast.makeText(context, "Login Success", Toast.LENGTH_SHORT).show()
-                val intent = Intent(activity, MainActivity::class.java)
+                val intent = Intent(activity, menuClient::class.java)
                 startActivity(intent)
 
             }

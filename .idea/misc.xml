@@ -6,9 +6,15 @@
         <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/drawable/gradiant_splash.xml" value="0.1" />
         <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/activity_menu_client.xml" value="0.1" />
         <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/fragment_account.xml" value="0.1796875" />
+        <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/fragment_change_password.xml" value="0.1796875" />
+        <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/fragment_modify_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/fragment_profile.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/layout/fragment_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/Dorra/Desktop/4-esprit/SLKOTIN/frontArt/app/src/main/res/menu/menuclient.xml" value="0.17916666666666667" />
       </map>
     </option>
   </component>

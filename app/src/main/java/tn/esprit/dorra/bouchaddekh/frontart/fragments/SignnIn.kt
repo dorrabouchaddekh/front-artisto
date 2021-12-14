@@ -25,10 +25,11 @@ import tn.esprit.dorra.bouchaddekh.frontart.MainActivity
 import tn.esprit.dorra.bouchaddekh.frontart.R
 import tn.esprit.dorra.bouchaddekh.frontart.Utils.RetrofitClient
 import tn.esprit.dorra.bouchaddekh.frontart.data.User
+import tn.esprit.dorra.bouchaddekh.frontart.menuClient
 
 const val PREF_NAME = "LOGIN_FACTCKECH"
 const val IS_REMEMBRED = "IS_REMEMBRED"
-const val USER_NAME = "NAME"
+const val NAME = "NAME"
 const val EMAIL = "EMAIL"
 const val PASSWORD = "PASSWORD"
 const val IMAGE = "IMAGE"
@@ -113,7 +114,7 @@ class SignnIn : Fragment() {
                 val u = User (id,email,image, name, password)
 
                 Toast.makeText(context, "Login Success", Toast.LENGTH_SHORT).show()
-                val intent = Intent(activity, MainActivity::class.java)
+                val intent = Intent(activity, menuClient::class.java)
                 startActivity(intent)
 //                if (role == "\"utilisateur\"") {
 //                    // Log.e("Error", role)

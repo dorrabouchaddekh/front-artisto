@@ -11,6 +11,8 @@ interface UserApi {
     fun signin(@Body body: JsonObject): Call<JsonObject>
     @POST("/signup")
     fun signup(@Body body: JsonObject): Call<JsonObject>
+    @POST("/reset-password")
+    fun resetpassword(@Body body: JsonObject): Call<JsonObject>
 
     @POST("user/show")
     fun showUser(@Body body: JsonObject): Call<JsonObject>
